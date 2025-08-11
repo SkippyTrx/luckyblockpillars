@@ -1,0 +1,22 @@
+clearpillars:
+  command: /clearpillars
+  type: RUN_CONSOLE
+  runcmd:
+    - 'gamerule sendCommandFeedback false'
+    - 'ntdluckyblock destroy 15 150 -15 -15 0 15 world -all -silent'
+    - 'fill -25 2 -25 25 13 25 air replace'
+    - 'fill -25 14 -25 25 25 25 air replace'
+    - 'fill -25 26 -25 25 37 25 air replace'
+    - 'fill -25 38 -25 25 49 25 air replace'
+    - 'fill -25 50 -25 25 61 25 air replace'
+    - 'fill -25 62 -25 25 73 25 air replace'
+    - 'fill -25 74 -25 25 85 25 air replace'
+    - 'fill -25 86 -25 25 97 25 air replace'
+    - 'fill -25 98 -25 25 109 25 air replace'
+    - 'fill -25 110 -25 25 121 25 air replace'
+    - 'fill -25 122 -25 25 133 25 air replace'
+    - 'fill -25 134 -25 25 145 25 air replace'
+    - 'fill -25 146 -25 25 150 25 air replace'
+    - 'gamerule sendCommandFeedback true'
+    - 'tellraw @p {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n                              §aCleared Area!\n\n\n\n"}'
+    
